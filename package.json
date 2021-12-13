@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "esbuild": "^0.14.3"
+  },
+  "scripts": {
+    "build": "esbuild javascript/test.js --outdir=/app/build --log-level=verbose --watch"
+  },
+  "version": "0.1.0"
+}
